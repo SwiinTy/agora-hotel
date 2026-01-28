@@ -1,10 +1,9 @@
 import React from "react"
 import type { Metadata } from 'next'
 import { Inter, Cormorant_Garamond } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
-import Script from 'next/script' // Script bileşenini ekledik
+import { Analytics } from '@vercel analytics/next'
+import Script from 'next/script'
 import './globals.css'
-// Bağıl yol kullanarak import ettik
 import { LanguageProvider } from "../context/LanguageContext";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -14,10 +13,27 @@ const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant"
 });
 
+// Güncellenen Metadata Alanı
 export const metadata: Metadata = {
   title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
   description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Konforlu odalar, eşsiz manzaralar ve unutulmaz bir tatil deneyimi sizi bekliyor.',
   generator: 'v0.app',
+  openGraph: {
+    title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
+    description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Konforlu odalar, eşsiz manzaralar ve unutulmaz bir tatil deneyimi sizi bekliyor.',
+    url: 'https://www.agorahotelapart.com',
+    siteName: 'Agora Apart Hotel',
+    images: [
+      {
+        url: 'https://www.agorahotelapart.com/fb.jpg', // Public klasörüne attığın resim
+        width: 1200,
+        height: 630,
+        alt: 'Agora Apart Hotel Alanya',
+      },
+    ],
+    locale: 'tr_TR',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
@@ -28,7 +44,6 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body className={`${inter.variable} ${cormorant.variable} font-sans antialiased bg-background min-h-screen`}>
-        {/* Dil sağlayıcısı tüm siteyi sarmalıyor */}
         <LanguageProvider>
           {children}
           <Analytics />
