@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "rooms": "Zimmer",
+    "restaurant": "Restaurant",
+    "experiences": "Erlebnisse",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "AGORA",
+    "subtitle": "Apart Hotel",
+    "description": "Entdecken Sie Ruhe im Herzen des Mittelmeers in Alanya.",
+    "bookNow": "JETZT BUCHEN",
+    "location": "Standort",
+    "explore": "Entdecken",
+    "feat_wifi": "Schnelles WLAN",
+    "feat_rooms": "Ruhige Zimmer",
+    "feat_kitchen": "Große Küche"
+  },
+  "about": {
+    "welcome": "HERZLICH WILLKOMMEN",
+    "title": "Ein Boutique-Erlebnis wie kein anderes",
+    "description": "Das Agora Apart Hotel verbindet Wohnkomfort mit luxuriösen Details.",
+    "feature1_title": "Privatstrand",
+    "feature1_desc": "Nur wenige Schritte vom kristallklaren Meer entfernt.",
+    "feature2_title": "Agora Restaurant",
+    "feature2_desc": "Genießen Sie Weltklasse-Küche von unseren Meistern.",
+    "feature3_title": "24/7 Service",
+    "feature3_desc": "Unser Team ist rund um die Uhr für Sie da."
+  },
+  "experiences": {
+    "badge": "EXTRA",
+    "title": "Besondere Erlebnisse",
+    "subtitle": "Tauchen Sie ein in unvergessliche Momente der Erholung.",
+    "item1_title": "Bootstour",
+    "item1_desc": "Ein unvergesslicher Tag in den türkisfarbenen Buchten.",
+    "item2_title": "Türkisches Bad",
+    "item2_desc": "Erfrischen Sie sich mit einem traditionellen Ritual.",
+    "item3_title": "VIP-Transfer",
+    "item3_desc": "Komfortable und sichere Transportdienste."
+  },
+  "rooms": {
+    "title": "Apartments & Suiten",
+    "description": "Unterkunft",
+    "guests": "Personen",
+    "wifi": "Kostenloses WLAN",
+    "book": "JETZT BUCHEN",
+    "room1_name": "Suite mit Bergblick",
+    "room1_desc": "Ein modernes Erlebnis vor dem Blick auf das Taurusgebirge.",
+    "room2_name": "Standardzimmer",
+    "room2_desc": "Spüren Sie den Komfort von Agora Apart ganz einfach.",
+    "image": "Bild"
+  },
+  "restaurant": {
+    "badge": "RESTAURANT",
+    "title": "Eine Reise voller Geschmack",
+    "description": "Unser Hotel verbindet Gastfreundschaft mit moderner Küche.",
+    "feature1": "Live-Musik & Türkische Nächte",
+    "feature2": "09:00 - 23:00 Die ganze Woche geöffnetes A La Carte Restaurant",
+    "feature3": "Köstliches türkisches Frühstück"
+  },
+  "gallery": {
+    "title": "Galerie"
+  },
+  "contact": {
+    "badge": "KONTAKT",
+    "title": "Wir warten auf Sie",
+    "description": "Kontaktieren Sie uns jederzeit für Ihre Reservierung.",
+    "address_label": "Adresse",
+    "phone_label": "Telefon",
+    "email_label": "E-Mail",
+    "reception_label": "Rezeption",
+    "reception_value": "24/7 erreichbar",
+    "map_title": "Standort"
+  },
+  "footer": {
+    "description": "Ein Boutique-Aufenthalt im Herzen von Alanya.",
+    "hotel_title": "Hotel",
+    "services_title": "Dienste",
+    "info_title": "Info",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "AGB"
+  }
+}

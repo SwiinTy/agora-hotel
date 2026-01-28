@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "rooms": "Rooms",
+    "restaurant": "Restaurant",
+    "experiences": "Experiences",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AGORA",
+    "subtitle": "Apart Hotel",
+    "description": "Discover tranquility in the heart of the Mediterranean, within the unique atmosphere of Alanya.",
+    "bookNow": "BOOK NOW",
+    "location": "Our Location",
+    "explore": "Explore",
+    "feat_wifi": "Fast Wifi",
+    "feat_rooms": "Quiet Rooms",
+    "feat_kitchen": "Big Kitchen"
+  },
+  "about": {
+    "welcome": "WELCOME",
+    "title": "A Boutique Experience Like No Other",
+    "description": "Agora Apart Hotel is a boutique property in the heart of Alanya, combining home comfort with luxury details.",
+    "feature1_title": "Private Beach",
+    "feature1_desc": "Just a few steps away from the crystal waters of the Mediterranean.",
+    "feature2_title": "Agora Restaurant",
+    "feature2_desc": "Savor world cuisine prepared by our master chefs.",
+    "feature3_title": "24/7 Service",
+    "feature3_desc": "Our team is here for your needs at any hour of the day."
+  },
+  "experiences": {
+    "badge": "EXTRA",
+    "title": "Curated Experiences",
+    "subtitle": "Immerse yourself in unforgettable moments designed to inspire and rejuvenate.",
+    "item1_title": "Boat Tour & Party",
+    "item1_desc": "An unforgettable day in the turquoise bays of the Mediterranean.",
+    "item2_title": "Turkish Bath",
+    "item2_desc": "Refresh with a traditional Turkish bath ritual.",
+    "item3_title": "VIP Transfer",
+    "item3_desc": "Comfortable and secure VIP transportation services."
+  },
+  "rooms": {
+    "title": "Apartments & Suites",
+    "description": "Accommodation",
+    "guests": "Guests",
+    "wifi": "Free WiFi",
+    "book": "BOOK NOW",
+    "room1_name": "Mountain View Suite Room",
+    "room1_desc": "A spacious and modern accommodation experience against the unique view of the Taurus Mountains.",
+    "room2_name": "Standard Room",
+    "room2_desc": "Feel the comfort of Agora Apart in its simplest form.",
+    "image": "Image"
+  },
+  "restaurant": {
+    "badge": "RESTAURANT",
+    "title": "A Journey Full of Flavor",
+    "description": "Our hotel combines traditional Turkish hospitality with a modern culinary approach.",
+    "feature1": "Live Music & Turkish Nights",
+    "feature2": "09:00 - 23:00 Open All Week A La Carte Restaurant",
+    "feature3": "Delicious Turkish Breakfast"
+  },
+  "gallery": {
+    "title": "Gallery"
+  },
+  "contact": {
+    "badge": "CONTACT",
+    "title": "We Are Waiting For You",
+    "description": "You can contact us anytime for reservations and questions.",
+    "address_label": "Address",
+    "phone_label": "Phone",
+    "email_label": "Email",
+    "reception_label": "Reception",
+    "reception_value": "Available 24/7",
+    "map_title": "Agora Apart Hotel Location"
+  },
+  "footer": {
+    "description": "A boutique stay in the heart of Alanya, blending peace and comfort.",
+    "hotel_title": "Hotel",
+    "services_title": "Services",
+    "info_title": "Information",
+    "rights": "All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "rooms": "Rom",
+    "restaurant": "Restaurant",
+    "experiences": "Opplevelser",
+    "gallery": "Galleri",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "AGORA",
+    "subtitle": "Apart Hotel",
+    "description": "Oppdag roen i hjertet av Middelhavet, i Alanyas unike atmosfære.",
+    "bookNow": "BESTILL NÅ",
+    "location": "Vår beliggenhet",
+    "explore": "Utforsk",
+    "feat_wifi": "Raskt Wifi",
+    "feat_rooms": "Stille Rom",
+    "feat_kitchen": "Stort Kjøkken"
+  },
+  "about": {
+    "welcome": "VELKOMMEN",
+    "title": "En unik boutique-opplevelse",
+    "description": "Agora Apart Hotel kombinerer hjemmekomfort med luksuriøse detaljer i hjertet av Alanya.",
+    "feature1_title": "Privat strand",
+    "feature1_desc": "Bare noen få skritt fra Middelhavets krystallklare vann.",
+    "feature2_title": "Agora Restaurant",
+    "feature2_desc": "Nyt mat i verdensklasse tilberedt av våre mesterkokker.",
+    "feature3_title": "24/7 Service",
+    "feature3_desc": "Teamet vårt er her for dine behov når som helst på døgnet."
+  },
+  "experiences": {
+    "badge": "EKSTRA",
+    "title": "Spesielle Opplevelser",
+    "subtitle": "Fordyp deg i uforglemmelige øyeblikk designet for å inspirere og fornye.",
+    "item1_title": "Båttur og fest",
+    "item1_desc": "En uforglemmelig dag i Middelhavets turkise bukter.",
+    "item2_title": "Tyrkisk bad",
+    "item2_desc": "Forfrisk deg med et tradisjonelt tyrkisk bad-ritual.",
+    "item3_title": "VIP-transport",
+    "item3_desc": "Komfortable og sikre VIP-transporttjenester."
+  },
+  "rooms": {
+    "title": "Leiligheter og suiter",
+    "description": "Overnatting",
+    "guests": "Personer",
+    "wifi": "Gratis WiFi",
+    "book": "BESTILL NÅ",
+    "room1_name": "Suite med fjellutsikt",
+    "room1_desc": "En romslig og moderne overnattingsopplevelse mot den unike utsikten over Taurusfjellene.",
+    "room2_name": "Standard rom",
+    "room2_desc": "Føl komforten til Agora Apart i sin enkleste form.",
+    "image": "Bilde"
+  },
+  "restaurant": {
+    "badge": "RESTAURANT",
+    "title": "En reise full av smak",
+    "description": "Hotellet vårt kombinerer tradisjonell tyrkisk gjestfrihet med en moderne kulinarisk tilnærming.",
+    "feature1": "Levende musikk og tyrkiske kvelder",
+    "feature2": "09:00 - 23:00 Åpent hele uken A La Carte Restaurant",
+    "feature3": "Deilig tyrkisk frokost"
+  },
+  "gallery": {
+    "title": "Galleri"
+  },
+  "contact": {
+    "badge": "KONTAKT",
+    "title": "Vi venter på deg",
+    "description": "Du kan kontakte oss når som helst for reservasjoner og spørsmål.",
+    "address_label": "Adresse",
+    "phone_label": "Telefon",
+    "email_label": "E-post",
+    "reception_label": "Resepsjon",
+    "reception_value": "Tilgjengelig 24/7",
+    "map_title": "Agora Apart Hotel Beliggenhet"
+  },
+  "footer": {
+    "description": "Et boutique-opphold i hjertet av Alanya, som forener fred og komfort.",
+    "hotel_title": "Hotell",
+    "services_title": "Tjenester",
+    "info_title": "Informasjon",
+    "rights": "Alle rettigheter reservert.",
+    "privacy": "Personvernerklæring",
+    "terms": "Brukervilkår"
+  }
+}

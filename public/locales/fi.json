@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "rooms": "Huoneet",
+    "restaurant": "Ravintola",
+    "experiences": "Elämykset",
+    "gallery": "Galleria",
+    "contact": "Yhteystiedot"
+  },
+  "hero": {
+    "title": "AGORA",
+    "subtitle": "Apart Hotel",
+    "description": "Löydä rauha Välimeren sydämessä, Alanyan ainutlaatuisessa tunnelmassa.",
+    "bookNow": "VARAA NYT",
+    "location": "Sijaintimme",
+    "explore": "Tutki",
+    "feat_wifi": "Nopea Wifi",
+    "feat_rooms": "Hiljaiset Huoneet",
+    "feat_kitchen": "Suuri Keittiö"
+  },
+  "about": {
+    "welcome": "TERVETULOA",
+    "title": "Ainutlaatuinen boutique-kokemus",
+    "description": "Agora Apart Hotel yhdistää kodin mukavuuden ja ylelliset yksityiskohdat.",
+    "feature1_title": "Yksityinen ranta",
+    "feature1_desc": "Vain muutaman askeleen päässä kristallinkirkkaasta vedestä.",
+    "feature2_title": "Agora-ravintola",
+    "feature2_desc": "Nauti mestarikokkiemme valmistamista maailman makuista.",
+    "feature3_title": "24/7 Palvelu",
+    "feature3_desc": "Tiimimme palvelee mihin vuorokauden aikaan tahansa."
+  },
+  "experiences": {
+    "badge": "LISÄPALVELUT",
+    "title": "Kuratoidut Elämykset",
+    "subtitle": "Uppoudu unohtumattomiin hetkiin Alanyassa.",
+    "item1_title": "Venekierros",
+    "item1_desc": "Unohtumaton päivä Välimeren turkooseissa lahdissa.",
+    "item2_title": "Turkkilainen kylpy",
+    "item2_desc": "Virkisty perinteisellä kylpyrituaalilla.",
+    "item3_title": "VIP-kuljetus",
+    "item3_desc": "Mukavat ja turvalliset kuljetuspalvelut."
+  },
+  "rooms": {
+    "title": "Huoneistot & Sviitit",
+    "description": "Majoitus",
+    "guests": "Henkilöä",
+    "wifi": "Ilmainen WiFi",
+    "book": "VARAA NYT",
+    "room1_name": "Vuoristonäköala Sviitti",
+    "room1_desc": "Tilava majoituskokemus Taurus-vuorten upeaa näkymää vasten.",
+    "room2_name": "Standard-huone",
+    "room2_desc": "Tunne Agora Apartin mukavuus puhtaimmillaan.",
+    "image": "Kuva"
+  },
+  "restaurant": {
+    "badge": "RAVINTOLA",
+    "title": "Makujen täyteinen matka",
+    "description": "Hotellimme yhdistää vieraanvaraisuuden moderniin keittiöön.",
+    "feature1": "Elävää musiikkia ja turkkilaisia iltoja",
+    "feature2": "09:00 - 23:00 Avoinna koko viikon A La Carte -ravintola",
+    "feature3": "Herkullinen turkkilainen aamiainen"
+  },
+  "gallery": {
+    "title": "Galleria"
+  },
+  "contact": {
+    "badge": "YHTEYSTIEDOT",
+    "title": "Odotamme sinua",
+    "description": "Ota yhteyttä varauksia varten milloin tahansa.",
+    "address_label": "Osoite",
+    "phone_label": "Puhelin",
+    "email_label": "Sähköposti",
+    "reception_label": "Vastaanotto",
+    "reception_value": "Palvelemme 24/7",
+    "map_title": "Sijaintimme"
+  },
+  "footer": {
+    "description": "Boutique-majoitus Alanyan sydämessä, yhdistäen rauhan ja mukavuuden.",
+    "hotel_title": "Hotelli",
+    "services_title": "Palvelut",
+    "info_title": "Tiedot",
+    "rights": "Kaikki oikeudet pidätetään.",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot"
+  }
+}

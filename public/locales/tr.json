@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "rooms": "Odalar",
+    "restaurant": "Restaurant",
+    "experiences": "Deneyimler",
+    "gallery": "Galeri",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "AGORA",
+    "subtitle": "Apart Hotel",
+    "description": "Akdeniz'in kalbinde, Alanya'nın eşsiz dokusunda huzuru keşfedin.",
+    "bookNow": "BOOK NOW",
+    "location": "Konumumuz",
+    "explore": "Keşfet",
+    "feat_wifi": "Hızlı Wifi",
+    "feat_rooms": "Sessiz Odalar",
+    "feat_kitchen": "Geniş Mutfak"
+  },
+  "about": {
+    "welcome": "HOŞ GELDİNİZ",
+    "title": "Eşi Benzeri Olmayan Bir Butik Deneyim",
+    "description": "Agora Apart Hotel, Alanya'nın kalbinde konfor ve huzuru bir araya getiren butik bir mülktür.",
+    "feature1_title": "Özel Plaj",
+    "feature1_desc": "Akdeniz'in kristal sularına sadece birkaç adım uzaklıkta.",
+    "feature2_title": "Agora Restaurant",
+    "feature2_desc": "Usta şeflerimizden dünya mutfağı lezzetleri.",
+    "feature3_title": "24/7 Hizmet",
+    "feature3_desc": "Günün her saati ihtiyaçlarınız için yanınızdayız."
+  },
+  "experiences": {
+    "badge": "EKSTRA",
+    "title": "Size Özel Deneyimler",
+    "subtitle": "Kendinizi yenilemek ve ilham almak için tasarlanmış unutulmaz anlara bırakın.",
+    "item1_title": "Tekne Turu & Partisi",
+    "item1_desc": "Akdeniz'in masmavi koylarında unutulmaz bir gün.",
+    "item2_title": "Türk Hamamı",
+    "item2_desc": "Geleneksel Türk hamamı ritüeli ile yenilenin.",
+    "item3_title": "VIP Transfer Servisi",
+    "item3_desc": "Konforlu ve güvenli VIP ulaşım hizmeti."
+  },
+  "rooms": {
+    "title": "Dairelerimiz & Suitler",
+    "description": "Konaklama",
+    "guests": "Kişilik",
+    "wifi": "Ücretsiz WiFi",
+    "book": "REZERVASYON YAP",
+    "room1_name": "Dağ Manzaralı Suit Oda",
+    "room1_desc": "Toros Dağları'nın eşsiz manzarasına karşı konaklama.",
+    "room2_name": "Standart Oda",
+    "room2_desc": "Agora Apart konforunu en sade haliyle hissedin.",
+    "image": "Görsel"
+  },
+  "restaurant": {
+    "badge": "RESTAURANT",
+    "title": "Lezzet Dolu Bir Yolculuk",
+    "description": "Otelimiz, geleneksel Türk misafirperverliğini modern mutfak anlayışıyla buluşturuyor.",
+    "feature1": "Canlı Müzik & Türk Geceleri",
+    "feature2": "09:00 - 23:00 Bütün Hafta Açık Alakart Restaurant",
+    "feature3": "Enfes Türk Kahvaltısı"
+  },
+  "gallery": {
+    "title": "Galeri"
+  },
+  "contact": {
+    "badge": "İLETİŞİM",
+    "title": "Sizi Bekliyoruz",
+    "description": "Rezervasyon ve sorularınız için bize dilediğiniz zaman ulaşabilirsiniz.",
+    "address_label": "Adres",
+    "phone_label": "Telefon",
+    "email_label": "E-posta",
+    "reception_label": "Resepsiyon",
+    "reception_value": "7 Gün 24 Saat Hizmetinizdeyiz",
+    "map_title": "Agora Apart Hotel Konumu"
+  },
+  "footer": {
+    "description": "Alanya'nın kalbinde, huzuru ve konforu bir araya getiren butik konaklama.",
+    "hotel_title": "Otel",
+    "services_title": "Hizmetler",
+    "info_title": "Bilgi",
+    "rights": "Tüm Hakları Saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları"
+  }
+}
