@@ -17,9 +17,6 @@ export const metadata: Metadata = {
   title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
   description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Kleopatra Plajı\'na 50 metre mesafede konforlu bir konaklama deneyimi.',
   metadataBase: new URL('https://www.agorahotelapart.com'),
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
     description: 'Alanya\'nın merkezinde, denize sıfır konfor.',
@@ -27,20 +24,14 @@ export const metadata: Metadata = {
     siteName: 'Agora Apart Hotel',
     images: [
       {
-        url: '/images/fb.jpg?v=3', // Facebook'u tetiklemek için versiyon ekledik
+        url: '/images/fb.jpg?v=3', 
         width: 1200,
         height: 630,
-        alt: 'Agora Apart Hotel Alanya Dış Görünüm',
+        alt: 'Agora Apart Hotel Alanya',
       },
     ],
     locale: 'tr_TR',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'AGORA APART HOTEL',
-    description: 'Alanya\'nın merkezinde konforlu konaklama.',
-    images: ['/images/fb.jpg?v=3'],
   },
 }
 
@@ -51,12 +42,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr">
+      <head>
+        {/* Google Analytics (GA4) Kurulumu */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-L014W4ZT30"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-L014W4ZT30');
+          `}
+        </Script>
+      </head>
       <body className={`${inter.variable} ${cormorant.variable} font-sans antialiased bg-background min-h-screen`}>
         <LanguageProvider>
           {children}
           <Analytics />
         </LanguageProvider>
 
+        {/* Chatbase AI Bot Entegrasyonu */}
         <Script
           id="chatbase-bot"
           strategy="afterInteractive"
