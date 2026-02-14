@@ -43,6 +43,9 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
+        {/* Google Search Console Doğrulama Kodu */}
+        <meta name="google-site-verification" content="u2GCQxuCgfaaxwlbcweZQEc8OHcRdO1wuecKmwyWK-w" />
+        
         {/* Google Analytics (GA4) Kurulumu */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-L014W4ZT30"
