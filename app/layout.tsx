@@ -23,7 +23,8 @@ export const metadata: Metadata = {
     siteName: 'Agora Apart Hotel',
     images: [
       {
-        url: 'https://www.agorahotelapart.com/fb.jpg', // Public klasöründeki resmin yolu
+        // Resim yolunu senin klasör yapındaki gibi /images/fb.jpg yaptım
+        url: 'https://www.agorahotelapart.com/images/fb.jpg', 
         width: 1200,
         height: 630,
         alt: 'Agora Apart Hotel Alanya',
@@ -47,7 +48,7 @@ export default function RootLayout({
           <Analytics />
         </LanguageProvider>
 
-        {/* Chatbase AI Bot Entegrasyonu - Ters tırnaklar eklendi */}
+        {/* Chatbase AI Bot Entegrasyonu - Hatalı kısımlar (ters tırnaklar) düzeltildi */}
         <Script
           id="chatbase-bot"
           strategy="afterInteractive"
