@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
     description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Konforlu odalar, eşsiz manzaralar ve unutulmaz bir tatil deneyimi sizi bekliyor.',
-    url: 'https://www.agorahotelapart.com',
+    url: 'https://www.agorahotelapart.com', // Doğru domain ayarlandı
     siteName: 'Agora Apart Hotel',
     images: [
       {
-        // Resim yolunu senin klasör yapındaki gibi /images/fb.jpg yaptım
+        // Klasör yapına göre (public/images/fb.jpg) tam adres:
         url: 'https://www.agorahotelapart.com/images/fb.jpg', 
         width: 1200,
         height: 630,
@@ -48,7 +48,7 @@ export default function RootLayout({
           <Analytics />
         </LanguageProvider>
 
-        {/* Chatbase AI Bot Entegrasyonu - Hatalı kısımlar (ters tırnaklar) düzeltildi */}
+        {/* Chatbase AI Bot Entegrasyonu - Hatalar giderildi */}
         <Script
           id="chatbase-bot"
           strategy="afterInteractive"
