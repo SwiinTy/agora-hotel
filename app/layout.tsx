@@ -1,7 +1,7 @@
 import React from "react"
 import type { Metadata } from 'next'
 import { Inter, Cormorant_Garamond } from 'next/font/google'
-import { Analytics } from '@vercel analytics/next'
+import { Analytics } from '@vercel/analytics/next'
 import Script from 'next/script'
 import './globals.css'
 import { LanguageProvider } from "../context/LanguageContext";
@@ -13,11 +13,9 @@ const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant"
 });
 
-// Güncellenen Metadata Alanı
 export const metadata: Metadata = {
   title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
   description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Konforlu odalar, eşsiz manzaralar ve unutulmaz bir tatil deneyimi sizi bekliyor.',
-  generator: 'v0.app',
   openGraph: {
     title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
     description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Konforlu odalar, eşsiz manzaralar ve unutulmaz bir tatil deneyimi sizi bekliyor.',
@@ -25,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'Agora Apart Hotel',
     images: [
       {
-        url: 'https://www.agorahotelapart.com/fb.jpg', // Public klasörüne attığın resim
+        url: 'https://www.agorahotelapart.com/fb.jpg', // Public klasöründeki resmin yolu
         width: 1200,
         height: 630,
         alt: 'Agora Apart Hotel Alanya',
@@ -49,7 +47,7 @@ export default function RootLayout({
           <Analytics />
         </LanguageProvider>
 
-        {/* Chatbase AI Bot Entegrasyonu */}
+        {/* Chatbase AI Bot Entegrasyonu - Ters tırnaklar eklendi */}
         <Script
           id="chatbase-bot"
           strategy="afterInteractive"
