@@ -15,23 +15,32 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
-  description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Konforlu odalar, eşsiz manzaralar ve unutulmaz bir tatil deneyimi sizi bekliyor.',
+  description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Kleopatra Plajı\'na 50 metre mesafede konforlu bir konaklama deneyimi.',
+  metadataBase: new URL('https://www.agorahotelapart.com'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'AGORA APART HOTEL | Akdeniz\'in Kalbinde Huzur',
-    description: 'Agora Apart Hotel ile Akdeniz\'in tadını çıkarın. Konforlu odalar, eşsiz manzaralar ve unutulmaz bir tatil deneyimi sizi bekliyor.',
-    url: 'https://www.agorahotelapart.com', // Doğru domain ayarlandı
+    description: 'Alanya\'nın merkezinde, denize sıfır konfor.',
+    url: 'https://www.agorahotelapart.com',
     siteName: 'Agora Apart Hotel',
     images: [
       {
-        // Klasör yapına göre (public/images/fb.jpg) tam adres:
-        url: 'https://www.agorahotelapart.com/images/fb.jpg', 
+        url: '/images/fb.jpg?v=3', // Facebook'u tetiklemek için versiyon ekledik
         width: 1200,
         height: 630,
-        alt: 'Agora Apart Hotel Alanya',
+        alt: 'Agora Apart Hotel Alanya Dış Görünüm',
       },
     ],
     locale: 'tr_TR',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AGORA APART HOTEL',
+    description: 'Alanya\'nın merkezinde konforlu konaklama.',
+    images: ['/images/fb.jpg?v=3'],
   },
 }
 
@@ -48,7 +57,6 @@ export default function RootLayout({
           <Analytics />
         </LanguageProvider>
 
-        {/* Chatbase AI Bot Entegrasyonu - Hatalar giderildi */}
         <Script
           id="chatbase-bot"
           strategy="afterInteractive"
