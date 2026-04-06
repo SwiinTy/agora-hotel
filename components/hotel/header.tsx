@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, Phone, MessageCircle } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -48,11 +48,7 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-4">
             <div className="flex items-center gap-1.5">
               {languages.map((lang) => (
-                <button 
-                  key={lang.code} 
-                  onClick={() => setLanguage(lang.code)} 
-                  className={`flex items-center gap-1 p-1 px-2 rounded border transition-all ${currentLanguage === lang.code ? "bg-primary text-primary-foreground border-primary" : "bg-secondary/40 text-muted-foreground border-transparent hover:border-border"}`}
-                >
+                <button key={lang.code} onClick={() => setLanguage(lang.code)} className={`flex items-center gap-1 p-1 px-2 rounded border transition-all ${currentLanguage === lang.code ? "bg-primary text-primary-foreground border-primary" : "bg-secondary/40 text-muted-foreground border-transparent hover:border-border"}`}>
                   <img src={lang.flag} alt={lang.label} className="w-4 h-3 object-cover rounded-sm shadow-sm" />
                   <span className="text-[10px] font-bold">{lang.label}</span>
                 </button>
@@ -60,7 +56,8 @@ export function Header() {
             </div>
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <Button className="bg-[#25D366] hover:bg-[#20ba5a] text-white px-4 h-9 flex items-center gap-2 text-xs">
-                <MessageCircle className="w-4 h-4 fill-white" />
+                {/* Orijinal WhatsApp Logosu (CDN) */}
+                <img src="https://cdn.simpleicons.org/whatsapp/white" className="w-4 h-4" alt="WhatsApp" />
                 {t('hero.bookNow')}
               </Button>
             </a>
@@ -72,15 +69,10 @@ export function Header() {
         </div>
       </div>
 
-      {/* MOBİL DİL ÇUBUĞU - HER ZAMAN GÖRÜNÜR */}
       <div className="lg:hidden border-t border-border/10 bg-background/50 py-2 overflow-x-auto no-scrollbar">
         <div className="flex items-center justify-center gap-2 px-4 min-w-max">
           {languages.map((lang) => (
-            <button 
-              key={lang.code} 
-              onClick={() => setLanguage(lang.code)} 
-              className={`flex items-center gap-1.5 p-1.5 px-3 rounded-full border transition-all ${currentLanguage === lang.code ? "bg-primary text-primary-foreground border-primary" : "bg-secondary text-foreground border-border/40"}`}
-            >
+            <button key={lang.code} onClick={() => setLanguage(lang.code)} className={`flex items-center gap-1.5 p-1.5 px-3 rounded-full border transition-all ${currentLanguage === lang.code ? "bg-primary text-primary-foreground border-primary" : "bg-secondary text-foreground border-border/40"}`}>
               <img src={lang.flag} alt={lang.label} className="w-4 h-3 rounded-sm" />
               <span className="text-[11px] font-bold">{lang.label}</span>
             </button>
@@ -99,7 +91,7 @@ export function Header() {
             <div className="pt-8 flex flex-col gap-4">
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="w-full">
                 <Button className="bg-[#25D366] hover:bg-[#20ba5a] text-white w-full py-7 text-xl">
-                  <MessageCircle className="w-6 h-6 fill-white mr-2" />
+                  <img src="https://cdn.simpleicons.org/whatsapp/white" className="w-7 h-7 mr-2" alt="WhatsApp" />
                   {t('hero.bookNow')}
                 </Button>
               </a>

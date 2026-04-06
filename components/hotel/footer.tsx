@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Instagram, Facebook, Send } from "lucide-react";
 import { useLanguage } from "../../context/LanguageContext";
 
 export function Footer() {
@@ -38,10 +37,20 @@ export function Footer() {
               <span className="text-xs uppercase tracking-[0.3em] text-card/60">Apart Hotel</span>
             </Link>
             <p className="text-card/70 leading-relaxed mb-6 max-w-sm">{t('footer.description')}</p>
+            
             <div className="flex gap-4">
-              <a href="https://t.me/AgoraHotel" target="_blank" className="w-10 h-10 rounded-full bg-card/10 flex items-center justify-center hover:bg-primary transition-colors"><Send className="w-5 h-5" /></a>
-              <a href="https://www.facebook.com/profile.php?id=61571114631315" target="_blank" className="w-10 h-10 rounded-full bg-card/10 flex items-center justify-center hover:bg-primary transition-colors"><Facebook className="w-5 h-5" /></a>
-              <a href="https://www.instagram.com/agora.apart.hotel" target="_blank" className="w-10 h-10 rounded-full bg-card/10 flex items-center justify-center hover:bg-primary transition-colors"><Instagram className="w-5 h-5" /></a>
+              {/* Telegram */}
+              <a href="https://t.me/AgoraHotel" target="_blank" className="w-10 h-10 rounded-full bg-[#26A5E4] flex items-center justify-center hover:scale-110 transition-transform">
+                <img src="https://cdn.simpleicons.org/telegram/white" className="w-5 h-5" alt="Telegram" />
+              </a>
+              {/* Facebook */}
+              <a href="https://www.facebook.com/profile.php?id=61571114631315" target="_blank" className="w-10 h-10 rounded-full bg-[#1877F2] flex items-center justify-center hover:scale-110 transition-transform">
+                <img src="https://cdn.simpleicons.org/facebook/white" className="w-5 h-5" alt="Facebook" />
+              </a>
+              {/* Instagram */}
+              <a href="https://www.instagram.com/agora.apart.hotel" target="_blank" className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] flex items-center justify-center hover:scale-110 transition-transform">
+                <img src="https://cdn.simpleicons.org/instagram/white" className="w-5 h-5" alt="Instagram" />
+              </a>
             </div>
           </div>
 
