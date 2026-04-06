@@ -46,9 +46,9 @@ export default function RootLayout({
         {/* Google Search Console Doğrulama Kodu */}
         <meta name="google-site-verification" content="u2GCQxuCgfaaxwlbcweZQEc8OHcRdO1wuecKmwyWK-w" />
         
-        {/* Google Analytics (GA4) Kurulumu */}
+        {/* Yeni Google Analytics (GA4) Kurulumu */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-L014W4ZT30"
+          src="https://www.googletagmanager.com/gtag/js?id=G-GW8Z45G7QX"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -56,7 +56,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-L014W4ZT30');
+            gtag('config', 'G-GW8Z45G7QX');
           `}
         </Script>
       </head>
