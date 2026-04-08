@@ -25,6 +25,13 @@ export function Footer() {
       { label: "Saray Mah. Bebek Sok. No:7 Alanya", href: "#contact" },
       { label: "0552 593 35 07", href: "tel:+905525933507" },
     ],
+    // PAYTR İÇİN ZORUNLU YASAL LİNKLER
+    legal: [
+      { label: "İptal ve İade Koşulları", href: "/iptal-iade-kosullari" },
+      { label: "Mesafeli Satış Sözleşmesi", href: "/mesafeli-satis-sozlesmesi" },
+      { label: "Gizlilik Politikası", href: "/gizlilik-politikasi" },
+      { label: "Kullanım Koşulları", href: "/kullanim-kosullari" },
+    ]
   };
 
   return (
@@ -38,19 +45,23 @@ export function Footer() {
             </Link>
             <p className="text-card/70 leading-relaxed mb-6 max-w-sm">{t('footer.description')}</p>
             
-            <div className="flex gap-4">
-              {/* Telegram */}
+            <div className="flex gap-4 mb-8">
               <a href="https://t.me/AgoraHotel" target="_blank" className="w-10 h-10 rounded-full bg-[#26A5E4] flex items-center justify-center hover:scale-110 transition-transform">
                 <img src="https://cdn.simpleicons.org/telegram/white" className="w-5 h-5" alt="Telegram" />
               </a>
-              {/* Facebook */}
               <a href="https://www.facebook.com/profile.php?id=61571114631315" target="_blank" className="w-10 h-10 rounded-full bg-[#1877F2] flex items-center justify-center hover:scale-110 transition-transform">
                 <img src="https://cdn.simpleicons.org/facebook/white" className="w-5 h-5" alt="Facebook" />
               </a>
-              {/* Instagram */}
               <a href="https://www.instagram.com/agora.apart.hotel" target="_blank" className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] flex items-center justify-center hover:scale-110 transition-transform">
                 <img src="https://cdn.simpleicons.org/instagram/white" className="w-5 h-5" alt="Instagram" />
               </a>
+            </div>
+
+            {/* ÖDEME LOGOLARI (PAYTR İÇİN) */}
+            <div className="flex gap-6 items-center grayscale opacity-50 mt-10 border-t border-card/10 pt-6">
+              <img src="https://cdn.simpleicons.org/visa/white" className="h-5" alt="Visa" />
+              <img src="https://cdn.simpleicons.org/mastercard/white" className="h-5" alt="Mastercard" />
+              <img src="https://cdn.simpleicons.org/paytr/white" className="h-5" alt="PayTR" />
             </div>
           </div>
 
@@ -62,9 +73,15 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm uppercase tracking-wide font-medium mb-4">{t('footer.services_title')}</h3>
+            <h3 className="text-sm uppercase tracking-wide font-medium mb-4">Kurumsal</h3>
             <ul className="space-y-3">
-              {footerLinks.services.map((link, i) => <li key={i}><Link href={link.href} className="text-card/70 hover:text-primary transition-colors text-sm">{link.label}</Link></li>)}
+              {footerLinks.legal.map((link, i) => (
+                <li key={i}>
+                  <Link href={link.href} className="text-card/70 hover:text-primary transition-colors text-sm">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -81,8 +98,8 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs uppercase tracking-widest text-card/50">© {new Date().getFullYear()} AGORA APART HOTEL. {t('footer.rights')}</p>
           <div className="flex gap-6 text-[10px] uppercase tracking-widest text-card/50">
-            <Link href="#" className="hover:text-card/80 transition-colors">{t('footer.privacy')}</Link>
-            <Link href="#" className="hover:text-card/80 transition-colors">{t('footer.terms')}</Link>
+            <Link href="/gizlilik-politikasi" className="hover:text-card/80 transition-colors">{t('footer.privacy')}</Link>
+            <Link href="/kullanim-kosullari" className="hover:text-card/80 transition-colors">{t('footer.terms')}</Link>
           </div>
         </div>
       </div>
